@@ -4,5 +4,5 @@ puts "RDF_FILE: ${RDF_PATH}"
 
 set IMPL impl_1
 prj_open "${RDF_PATH}"
-prj_run Map -impl $IMPL
+prj_run PAR -impl $IMPL
 prj_close

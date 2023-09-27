@@ -8,5 +8,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: pnmainc ${{ github.action_path }}/map.tcl ${{ inputs.RDF }}
+    - run: pnmainc ${{ github.action_path }}/par.tcl ${{ inputs.RDF }}
       shell: bash

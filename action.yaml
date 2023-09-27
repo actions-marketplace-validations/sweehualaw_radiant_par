@@ -1,5 +1,5 @@
-name: 'Radiant Synthesis'
-description: 'Run Radiant Synthesis'
+name: 'Radiant Map'
+description: 'Run Radiant Map'
 inputs:
   RDF:
     description: 'path to rdf file'
@@ -8,5 +8,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: pnmainc ${{ github.action_path }}/synthesis.tcl ${{ inputs.RDF }}
+    - run: pnmainc ${{ github.action_path }}/map.tcl ${{ inputs.RDF }}
       shell: bash

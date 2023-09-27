@@ -1,5 +1,5 @@
-name: 'Radiant Map'
-description: 'Run Radiant Map'
+name: 'Radiant PAR'
+description: 'Run Radiant PAR'
 inputs:
   RDF:
     description: 'path to rdf file'
